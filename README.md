@@ -6,11 +6,18 @@ Half-Byte Tiny Basic is a high level language, based on the Tiny Basic from the 
 
 You must have the following libraries installed:
 i2cmaster.h
+
 nunchuck.h
+
 font4x6g.h
+
 TVout.h
+
 PS2Keyboard.h
+
 EEPROM.h
+
+
 
 You must connect the keyboard like this:
  DataPin = 2;
