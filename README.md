@@ -5,12 +5,12 @@ A high level language for Arduino and compatibles
 Half-Byte Tiny Basic is a high level language, based on the Tiny Basic from the 1970's. It is designed to be used on the Arduino or compatible directly, with out being tethered to a computer. It requires TVOut and the PS/2 keyboard library. It allows for programs upto 1000 bytes on an ATMega 328 or similar controller.  You have full control over the hardware and can even write short and simple games that utilize graphics, sound and the Wii Nunchuck.  
 
 You must have the following libraries installed:
-<i2cmaster.h>
-<nunchuck.h>
-<font4x6g.h>
-<TVout.h>
-<PS2Keyboard.h>
-<EEPROM.h>
+i2cmaster.h
+nunchuck.h
+font4x6g.h
+TVout.h
+PS2Keyboard.h
+EEPROM.h
 
 You must connect the keyboard like this:
  DataPin = 2;
